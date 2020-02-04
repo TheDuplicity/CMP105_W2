@@ -25,5 +25,11 @@ private:
 	Input* input;
 
 	// Add your object here
+	sf::Text outPutText;
+	sf::Font textFont;
+
+	int mouseOriginPosX, mouseOriginPosY;
+	bool lmousePressedAlready = false, rmousePressedAlready = false;
+	sf::CircleShape circle;
 
 };
